@@ -1,0 +1,53 @@
+4 Pillars of OOP
+
+- Intro/Hook
+  - At Turing, we've always been pretty good at making students productive. We teach you how to code, how ruby works, how to collaborate, how to break down a problem. But there are some things that students from a traditional CS program get that our students haven't. We found our students struggling with some of the basic CS theory that employers have come to expect, since most of their employees got a CS degree.
+  - One of those things is the 4 pillars of OOP. You're going to spend the rest of your time here at Turing writing object oriented code. Here are the 4 pillars of object oriented programming.
+- For each pillar
+  - A description
+  - A problem it solves
+  - A metaphor
+  - An example from the module
+- Abstraction
+  - A problem it solves
+    - We can't really work until we can hold the problem in our minds. I takes time and effort to build up a mental picture of your code, and the larger that mental picture is, the more likely you are to make a mistake.
+    - http://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/
+  - A description
+    - Wrap up complex actions in simple verbs. Describe steps clearly, and hide the complexity. Someone can always pop the hood if they need to.
+  - An example from the module
+    - Instead of calling search_for_a node_that_is_nil_and_create_a_new_node_and_fill_it_with_this_data, we can call append or insert
+  - A metaphor
+    - The gas pedal on a car
+- Encapsulation
+  - Problem it solves
+    - Code organization. Where does it make sense to keep things together, and where are responsibilities seperate
+  - A description
+    - As much as you can, keep state and logic internal. This can mean have as few attr readers as possible, or as few instance vars as possible. The less you have to keep track off at any given time, the better.
+  - An example
+    - In battleship, I asked you to think about what responsibilities belonged where. There wasn't a right answer to this question, but everyone created multiple classes without much guidance
+  - A metaphor
+    -
+- Abstraction and encapsulation support each other. If you don't group like things together, and hide them under the hood, then you're going to have a harder time abstracting them. They'll have to be passing data back and forth.
+- Turn to a partner and talk tell them in your own words, what do we mean by abstraction and encapsulation.
+- Inheritance
+  - Problem it solves
+    - As our applications become more complex, we can find that we often have classes that are very similar. And there is often a hierarchy to them.
+    - DRY. If I change something in the parent class, all the children also get that change.
+  - Description
+    - Classes can have parent classes. Child classes will inherit all of the behavior and attributes of the parent class. Child classes can then choose to overwrite some of those as necessary.
+  - A metaphor
+    - The coke freestyle machine. It has soda flavors and additional flavors. A Cherry Coke inherits coke.
+  - An example
+    - Minitest. Your tests are classes. Every test file you create is a new class. You're using methods like `assert` and `refute`, and when you create a `setup` method, you don't have to call it. The parent class calls it. There are all kinds of behavior that your tests have because they inherit from Minitest::Test
+- Polymorphism
+  - A description
+    - Defined as the condition of occurring in several different forms. Basically, it just means that we can call the same method on
+  - Problem it solves
+    - Naming is hard. If there's a verb/method name that works for similar processes, just use that same name. Even if it doesn't actually refer to the same thing happening
+  - An example
+    - Strings and arrays both have length. They both return integers, and they both mean roughly the same thing, but the internal operation differs between the two classes. In the inheritance lesson, you saw that all employee types had a `total_compensation` method, but the behavior of that method differs.
+  - A metaphor
+    - Ingredients in a recipe. You don't need a new verb to slice each food. You can slice an apple, and a carrot and a watermelon. Your process might differ for each food, and it might not, but you can use the same verb.
+- Inheritance and Polymorphism kind of go together. At least in the sense that all child classes will have the methods and attributes that were defined on the parent class.
+- Turn and talk to your partner about what inheritance and polymorphism are in your own words
+- Each of the 4 pillars relate to the other three. There's a lot of overlap in these concepts. How is abstraction related to the other 3 pillars? How do the other three pillars support or utilize it? 
