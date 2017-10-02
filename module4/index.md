@@ -24,7 +24,7 @@ Students who successfully complete Module 4 will have demonstrated mastery of Pr
 ### Projects
 
 1. [Quantified Self](./projects/quantified-self/quantified-self) - students start by building a front end in JavaScript that connects to an existing Rails API. Then they will re-build the back end with Node, Express, and Knex (so cool, right?). This project lasts the first three weeks.
-2. [Capstone Project](http://backend.turing.io/module4/capstone_project_overview) - this is a personal project students work on weeks three to six. Students will put everything they've learned during their time at Turing into this final project.
+2. [Capstone Project](http://backend.turing.io/module4/projects/capstone_project_overview) - this is a personal project students work on weeks three to six. Students will put everything they've learned during their time at Turing into this final project.
 3. [Open Source Project](http://backend.turing.io/module4/projects/open_source_project) - this group project will take place in week six. More information to come.
 
 ### Weekly Breakdown:
@@ -37,7 +37,7 @@ Students who successfully complete Module 4 will have demonstrated mastery of Pr
 *   [Webpack and NPM](./lessons/webpack-demystified)
 *   [Test Driving AJAX](./lessons/testing-in-javascript)
 *   [Debugging the Client Side](./lessons/fe_dev_tool_debugging)
-*   [ES5 vs ES6](./lessons/es5_vs_es6)
+*   Reading: [ES5 vs ES6](./lessons/es5_vs_es6)
 *   [Week One CFU](https://github.com/turingschool/checks-for-understanding/blob/master/module-4/backend/week_one)
 
 
